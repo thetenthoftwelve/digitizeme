@@ -1,0 +1,74 @@
+header {
+    background-color: green;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}/*
+title {
+    font-style: ;
+} */
+nav.top a {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+form {
+    font-size: 25px;
+    font-family: arial;
+}
+header div {
+    color: white;
+    margin-left: 20px;
+    font-size: 75px;
+    font-family: arial;
+}
+nav.top {
+    font-size: 50px;
+}
+nav.main {
+    background-color: red;
+    padding: 15px 0;
+    text-align: center;
+}
+nav.main a {
+    color: white;
+    font-size: 25px;
+    margin: 0 20px;
+}
+section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+label, select {
+    font-size: 25px;
+}
+.row-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+    /* This class in the html is "drop-down", does that matter? */
+.dropdown {
+    display: inline-block;
+    vertical-align: top;
+}
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.star-rating input {
+    display: none;
+}
+.star-rating label {
+    color: black;
+    cursor: pointer;
+    /*dark yellow and gold */
+}
+.star-rating label:hover~label {
+    color: gold;
+}
