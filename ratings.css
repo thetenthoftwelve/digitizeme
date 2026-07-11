@@ -5,9 +5,9 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-title {
-font-style: ;
-} 
+/*title {
+font-style: 20px;
+} */
  a {
 color: white;
 margin-left: 20px;
